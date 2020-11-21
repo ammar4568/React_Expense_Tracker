@@ -43,4 +43,4 @@ jobs:
         run: npm run build
       
       - name: Deploying on Surge
-        run: surge ./build expense-tracker-ammar.surge.sh --token ${{ secrets.SURGE_TOKEN }}
+        run: surge ./build expense-tracker-ammar68.surge.sh --token ${{ secrets.SURGE_TOKEN }}
